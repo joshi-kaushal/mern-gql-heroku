@@ -9,7 +9,6 @@ export const Quotes = () => {
 	if (loading) return <p>Loading...</p>;
 	if (error) return <p>Error :(</p>;
 
-	console.log(data);
 	if (data.quotes) {
 		return <div id="quotes">
 			<h2>Quotes</h2>
